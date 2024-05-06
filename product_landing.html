@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <link rel="stylesheet" type="text/css" href="product.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A product landing page for a medication reminder app created for the FreeCodeCamp's Responsive Web Design Certification.">
+  <title>TrustPoll Website </title>
+</head>
+
+<body>
+
+<header id="header">
+  <div class="logo">
+    <img class="logo-img" id="header-img" src="aa.png" alt="Remedi logo" />
+  </div>
+
+  <nav id="nav-bar">
+    <ul>
+      <li><a class="nav-link" href="#why">Why</a></li>
+      <li><a class="nav-link" href="#features">Features</a></li>
+      <li><a class="nav-link" href="#download">Vote</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section id="hero">
+    <div class="grid">
+      <div class="column-60">
+        <h1>Decentralized Voting System</h1>
+        <p id="description">Blockchain is an appealing alternative to conventional electronic voting systems with features such as decentralization, non-repudiation, and security protection.</p>
+        
+      </div>
+      <!-- <div class="column-40">
+         <div class="image-div">
+          <img id="hero-img" src="Icon.png" alt="Remedi mobile app" width="270" height="497">
+        </div>
+      </div>
+    </div> -->
+
+  </section>
+
+  <section id="why">
+    <h2>Why you should choose TrustPoll</h2>
+    <div class="container">
+      <div class="card">
+        <div class="icon">
+          <img src="images/easyToUse.svg" alt="easy to use icon" width="200">
+        </div>
+        <div class="desc">
+          <h3>Security</h3>
+          <p>TrustPoll employs advanced cryptographic techniques to safeguard your vote against manipulation or tampering. Each vote is securely recorded on the blockchain, making it immutable and transparent.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="icon">
+          <img src="images/dataPrivacy.svg" alt="data privacy icon" width="200" >
+        </div>
+        <div class="desc">
+          <h3>Transparencyy</h3>
+          <p>With TrustPoll, you can trust that your vote counts. Our platform provides real-time access to the voting process, allowing you to verify the integrity of the results at any time.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="icon" >
+          <img src="images/research.svg" alt="data privacy icon" width="200" >
+        </div>
+        <div class="desc">
+          <h3>Decentralization</h3>
+          <p>TrustPoll operates on a decentralized network of nodes, eliminating the risk of centralized control or manipulation. This decentralized approach ensures the fairness and reliability of the voting process.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="features">
+    <h2>Awesome Key Features</h2>
+    <div class="grid">
+      <div class="column-40">
+        <div class="image-div">
+          <!-- <img src="Icon.png" alt="Remedi mobile app" width="270" height="497"> -->
+        </div>
+      </div>
+
+      <div class="column-60">
+        <ol>
+          <li>
+            <h3 id="pills">Security</h3>
+            <p>TrustPoll employs advanced cryptographic techniques to safeguard your vote against manipulation or tampering. Each vote is securely recorded on the blockchain, making it immutable and transparent..</p>
+          </li>
+          <li>
+            <h3 id="med-report">Transparency</h3>
+            <p>With TrustPoll, you can trust that your vote counts. Our platform provides real-time access to the voting process, allowing you to verify the integrity of the results at any time.</p>
+          </li>
+          <li>
+            <h3 id="family">Accessibility</h3>
+            <p>TrustPoll offers a user-friendly interface accessible from any device with an internet connection. Whether you're voting from your computer, smartphone, or tablet, TrustPoll ensures a seamless and convenient voting experience.</p>
+          </li>
+          <li>
+            <h3 id="doctor-icon">Decentralization</h3>
+            <p> TrustPoll operates on a decentralized network of nodes, eliminating the risk of centralized control or manipulation. This decentralized approach ensures the fairness and reliability of the voting process.</p>
+          </li>
+        </ol>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="info">
+    <div>
+      <h2>How BlockChain Works??</h2>
+      <p>A blockchain is a distributed, immutable, and decentralized ledger at its core that consists of a chain of blocks and each block contains a set of data. The blocks are linked together using cryptographic techniques and form a chronological chain of information</p>
+      <p>Mining involves using computational power to solve complex mathematical problems that maintain and secure the blockchain network..</p>
+    </div>
+    <iframe id="video" height="315" src="https://www.youtube.com/embed/yubzJw0uiE4?rel=0&amp;controls=0&amp;showinfo=0" allowfullscreen></iframe>
+  </section>
+
+  <section id="download">
+    <h2>TrustPoll</h2>
+    <div class="container">
+      <div class="card" id="patient">
+        <div class="product-logo">
+          <img class="logo-img" src="aa.png" alt="Remedi logo">
+        </div>
+        <div class="desc">
+          <h3>Features</h3>
+          <ol>
+            <li>Each vote is securely recorded on the blockchain.</li>
+            <li> TrustPoll, you can trust that your vote counts.</li>
+            <li> TrustPoll ensures a seamless and convenient voting experience.</li>
+            <li>Your privacy is our top priority. </li>
+            <li>TrustPoll operates on a decentralized network of nodes.</li>
+          </ol>
+        </div>
+        <button class="btn">Vote</button>
+      </div>
+
+      
+  </section>
+
+  <<section id="contact">
+    <h2>Contact</h2>
+    <div class="grid">
+      <div class="column-60">
+        <form id="product_landing.php" action="product_landing.php" method="POST">
+          <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input type="text" name="name" class="form-control" id="name" placeholder="Name" required />
+          </div>
+          <div class="form-group">
+            <label id="email-label" for="email">Email</label>
+            <input name="email" class="form-control" id="email" type="email" placeholder="Email address" required />
+          </div>
+          <div class="form-group">
+            <p>Message</p>
+            <textarea id="message" class="input-textarea" name="message" placeholder="Enter your message here..." required></textarea>
+          </div>
+          <div class="form-group">
+            <button id="submit-label" type="submit" name="submit" value="Submit">Submit</button>
+          </div>
+        </form>
+      </div>
+  
+      <div class="column-40">
+        <div class="image-div">
+          <img src="images/contact.svg" alt="Contact icon" width="472" height="495">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <footer>
+    <div id="footer-logo">
+      <img class="logo-img" src="aa.png" alt="Remedi logo" />
+    </div>
+    <div id="footer-info">
+     
+      <div id="copyright">Founder of TrustPoll,</br>&nbsp;-Yogesh Hitnalli</div>
+    </div>
+  </footer>
+
+</main>
+
+</body>
+
+</html>
